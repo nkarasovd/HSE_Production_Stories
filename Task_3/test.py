@@ -1,4 +1,5 @@
 import argparse
+import os
 
 from monotone_conjugation import MonotoneConjugationTest
 
@@ -20,6 +21,11 @@ def test_parser() -> argparse.Namespace:
 
 if __name__ == '__main__':
     args = test_parser()
+
+    if not os.path.isfile(args.data_in):
+        raise ValueError(f"No such file or directory: {args.data_in}")
+
+    os.makedirs(os.path.dirname(args.data_out), exist_ok=True)
 
     solver = MonotoneConjugationTest()
     solver.test(args.data_in, args.data_out, args.axis, args.compare_with_pearson)
