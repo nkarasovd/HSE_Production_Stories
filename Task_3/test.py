@@ -25,7 +25,9 @@ if __name__ == '__main__':
     if not os.path.isfile(args.data_in):
         raise ValueError(f"No such file or directory: {args.data_in}")
 
-    os.makedirs(os.path.dirname(args.data_out), exist_ok=True)
+    dirname = os.path.dirname(args.data_out)
+    if dirname:
+        os.makedirs(dirname, exist_ok=True)
 
     solver = MonotoneConjugationTest()
     solver.test(args.data_in, args.data_out, args.axis, args.compare_with_pearson)
