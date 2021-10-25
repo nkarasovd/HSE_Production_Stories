@@ -1,0 +1,9 @@
+torch~=1.9.0
+ray[rllib]~=1.7.0
+ray[default]
+wandb~=0.12.5
+Pillow~=7.2.0
+numpy~=1.19.5
+gym~=0.18.0
+imageio~=2.9.0
+pytest~=6.2.5

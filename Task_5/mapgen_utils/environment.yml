@@ -1,0 +1,10 @@
+name: mapgen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - gym
+  - imageio-ffmpeg
+  - imageio
