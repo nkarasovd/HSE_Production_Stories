@@ -1,3 +1,4 @@
+import argparse
 import collections
 import os
 import re
@@ -45,8 +46,22 @@ class SimpleSpellChecker:
         return candidates[:count]
 
 
+def test_parser() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description='Simple Spell Checker')
+    parser.add_argument("--word", type=str, default="doog",
+                        help="Word with mistake")
+    parser.add_argument("--data", type=str, default="data/corpus.txt",
+                        help="Path to file with input data")
+    parser.add_argument("--num_suggestions", type=int, default=3,
+                        help="Number of suggestions")
+
+    return parser.parse_args()
+
+
 if __name__ == '__main__':
     os.chdir('/'.join(os.getcwd().split('/')[:-1]))
-    sc = SimpleSpellChecker()
+    args = test_parser()
+
+    sc = SimpleSpellChecker(args.data)
     sc.fit()
-    print(sc.suggest("doog"))
+    print(sc.suggest(args.word, count=args.num_suggestions))
