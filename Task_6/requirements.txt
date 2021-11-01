@@ -1,0 +1,5 @@
+tqdm~=4.57.0
+numpy~=1.19.5
+scipy~=1.6.0
+spylls~=0.1.6
+textdistance~=4.2.2
