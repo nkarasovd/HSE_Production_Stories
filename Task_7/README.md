@@ -1,5 +1,7 @@
 # Chat Bot
 
+Имя бота – @Task7ChatBot
+
 ## Dependencies
 
 ```
