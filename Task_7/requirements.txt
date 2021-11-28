@@ -1,0 +1,4 @@
+telebot~=0.0.4
+requests~=2.22.0
+datefinder~=0.7.1
+spacy~=3.0.6
