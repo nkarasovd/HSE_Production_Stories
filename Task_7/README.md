@@ -31,7 +31,7 @@ python main.py
 - Погода
 
 <p align="center">
-<img align="middle" src="./images/w1.png" />
+<img align="middle" src="images/w01.png" />
 </p>
 
 <p align="center">
