@@ -1,0 +1,6 @@
+libri_training_data/40_222_000027_000001.pt|frederick will not be the first man who has chosen a wife with less sense than his family expected|3 1 1 1 1 1 1 1 1 1 1 2 1 2 2 1 1 1 2|2 1 1 1 1 1 1 1 1 1 1 2 1 1 2 1 1 1 3
+libri_training_data/40_222_000036_000000.pt|but perhaps observed catherine though she has behaved so ill by our family she may behave better by yours|1 2 2 1 2 1 1 1 1 1 1 2 1 1 2 1 1 1 2|1 2 1 2 1 1 1 1 1 1 1 1 2 1 1 1 1 1 3
+libri_training_data/40_222_000034_000003.pt|he is a deceased man defunct in understanding|1 1 1 1 1 2 1 1|1 1 1 1 2 1 1 3
+libri_training_data/40_222_000034_000005.pt|open candid artless guileless with affections strong but simple forming no pretensions and knowing no disguise|2 2 3 2 1 2 1 1 1 1 1 2 2 1 1 1|1 2 2 2 1 1 1 1 2 1 1 2 1 1 1 3
+libri_training_data/40_121026_000077_000000.pt|you are right it was left on board|1 1 2 1 2 1 1 2|1 1 2 1 1 1 1 3
+libri_training_data/40_222_000009_000007.pt|she has made me miserable forever|1 2 1 1 1 1|1 1 2 1 1 3
